@@ -1,0 +1,36 @@
+Project name - CalculatorWebService
+project name click ->new->web service->name :Calculator
+package : com.unique
+Web service project click ->add operation->name : getNumber->
+make necessary changes 
+clean and build
+deploy
+test web service
+
+
+create project two for client
+name : CalculatorWebServiceClient
+new->webserive client
+browse project: calculator web service->calculator select
+form in html file : Calculator
+enter number 1->text field : name: txt1
+button ->name:submit
+run file 
+client folder->sourse package->new->servlet->Calculator(same as action) ->checkbox tick ->.java make changes->web service reference ->get number ->drag and drop in java file servlet->4
+
+int num1,num2;
+num1 = Integer.parseInt(request.getParameter("txt1"));
+num2 = Integer.parseInt(request.getParameter("txt2"));
+
+
+body->head chya bracket madhe -> + getNumber(num1,num2) +
+clean and build
+deploy
+client ->web pagaes->index.html->run file
+done
+
+
+
+
+
+
